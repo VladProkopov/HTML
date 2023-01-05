@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+*/
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    /*height: 70px;*/
+}
+
+.nav__list {
+    display: flex;
+    text-align: center;
+    gap: 35px;
+    line-height: 30px;
+    border-right: 1px solid #F4F4F4;
+    border-left: 1px solid #F4F4F4;
+    padding: 15px;
+    height: 55px;
+}
+
+.nav__list_item1  {
+    border-bottom: 3px solid #0275B1;
+    margin-bottom: -15px;
+}
+
+.nav__list_item1 h3 {
+    color: #0275B1;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*.nav__list_item2 {
+    background-image: url(/img/users.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+
+.nav__list_item2 {
+    height: 121%;
+}
+
+.nav__list_item2 a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #181818;
+    background-image: url(/img/users.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    line-height: 80px;
+}
+
+.nav__list_item2:hover {
+    border-bottom: 3px solid #0275B1;
+}
+
+.nav__list_item2 a:hover {
+    background-image: url(/img/users_activ.png);
+    background-repeat: no-repeat;
+    color: #0275B1;
+    margin-bottom: -15px;
+    background-position: center;
+}
+
+.nav__list_item3 {
+    height: 121%;
+}
+
+.nav__list_item3 a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #181818;
+    background-image: url(/img/briefcase.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    line-height: 80px;
+}
+
+.nav__list_item3:hover {
+    border-bottom: 3px solid #0275B1;
+}
+
+.nav__list_item3 a:hover {
+    background-image: url(/img/briefcase_activ.png);
+    background-repeat: no-repeat;
+    color: #0275B1;
+    margin-bottom: -15px;
+    background-position: center;
+}
+
+.nav__list_item4 {
+    height: 121%;
+}
+
+.nav__list_item4 a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #181818;
+    background-image: url(/img/message.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    line-height: 80px;
+}
+
+.nav__list_item4:hover {
+    border-bottom: 3px solid #0275B1;
+}
+
+.nav__list_item4 a:hover {
+    background-image: url(/img/message_activ.png);
+    background-repeat: no-repeat;
+    color: #0275B1;
+    margin-bottom: -15px;
+    background-position: center;
+}
+
+.nav__list_item4::before {
+    content: '1';
+    background: linear-gradient(215.49deg, #FFB75E 5.4%, #ED8F03 93.45%);
+    color: #ffffff;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: absolute;
+}
+
+.nav__list_item5 {
+    height: 121%;
+}
+
+.nav__list_item5 a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #181818;
+    background-image: url(/img/vector.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    line-height: 80px;
+}
+
+.nav__list_item5:hover {
+    border-bottom: 3px solid #0275B1;
+}
+
+.nav__list_item5 a:hover {
+    background-image: url(/img/vektor_activ1.png);
+    background-repeat: no-repeat;
+    color: #0275B1;
+    margin-bottom: -15px;
+    background-position: center;
+}
+
+.nav__list a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.nav__list p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #181818;
+}
+
+.nav__search {
+    padding: 15px;
+    position: relative;
+}
+
+.nav__search_img {
+    background-image: url(/img/search.png);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 25px;
+}
+
+.nav__search_srhtext {
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+
+.nav__search_srhtext::placeholder {
+    /*text-align: center;*/
+    font-size: 16px;
+    line-height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #CECECE;
+}
+
+.nav__profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-left: 1px solid #F4F4F4;
+    padding: 15px;
+}
+
+.nav__profile_name {
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #181818;
+}
+
+.nav__profile_name_item1 {
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(24, 24, 24, 0.2);
+}
+
+.nav__profile_name p {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #747474;
+}
+
+.nav__profile_name_item2 {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #02B033;
+    font-weight: bold;
+}
+
+.nav__Other {
+   text-align: center;
+   border-right: 1px solid #F4F4F4;
+   border-left: 1px solid #F4F4F4;
+   padding: 15px;
+}
+
+.nav__Other a {
+    display: block;
+    text-decoration: none;
+}
+
+.nav__Other p {
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #181818;
+    font-weight: bold;
+}
+
+.main {
+    background-color: #E5E5E5;
+}
+
+.main .container1 {
+    width: 60%;
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main_comment {
+    margin-top: 70px;
+    background-color: #fff;
+}
+
+.main__comment_peopl {
+    border-bottom: 1px solid #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.main__comment_peopl p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    color: #181818;
+}
+
+.main__comment_peopl a {
+    color: #0275B1;
+    text-decoration: none;
+}
+
+.main__profile_girl {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    align-items: center;
+}
+
+.main__profile1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #181818;
+}
+
+.main__profile1 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 215%;
+    color: #181818;
+}
+
+.main__say {
+    padding: 15px;
+}
+
+.main__say p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #181818;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.main__say a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #0275B1;
+    text-decoration: none;
+}
+
+.main_btn {
+    background-color: #fff;
+    border-top: 1px solid #F4F4F4;
+    display: flex;
+    align-items: center;
+}
+
+.main__like {
+    width: 80px;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    border-right: 1px solid #F4F4F4;
+    cursor: pointer;
+}
+
+.main__comments {
+    width: 80px;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    border-right: 1px solid #F4F4F4;
+    cursor: pointer;
+}
+
+.main_btn a {
+    display: flex;
+    margin-left: auto;
+    padding: 10px;
+    gap: 5px;
+    border-left: 1px solid #F4F4F4;
+    text-decoration: none;
+    color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bold;
+}
+
+.main__comment2 {
+    background-color: #fff;
+}
+
+.main__comment2_peopl {
+    border-bottom: 1px solid #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.main__comment2_peopl p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    color: #181818;
+}
+
+.main__comment2_peopl a {
+    color: #0275B1;
+    text-decoration: none;
+}
+
+.main__profile2_man1 {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.main__profile2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #181818;
+    
+}
+
+.main__profile2 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 215%;
+    color: #181818;
+}
+
+.main__profile2_img {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
+
+.main__profile2_img p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #181818;
+}
+
+.main__profile2_img img {
+    padding: 5px;
+}
+
+.main__btn2 {
+    background-color: #fff;
+    border-top: 1px solid #F4F4F4;
+    display: flex;
+    align-items: center;
+}
+
+.main__btn2 a {
+    display: flex;
+    margin-left: auto;
+    padding: 10px;
+    gap: 5px;
+    border-left: 1px solid #F4F4F4;
+    text-decoration: none;
+    color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bold;
+}
+
+.main__comment3 {
+    background-color: #fff;
+    margin-bottom: 70px;
+}
+
+.main__comment3_peopl {
+    border-bottom: 1px solid #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.main__comment3_peopl p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    color: #181818;
+}
+
+.main__comment3_peopl a {
+    color: #0275B1;
+    text-decoration: none;
+}
+
+.main__profile3_man2 {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.main__profile3 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #181818;
+    
+}
+
+.main__profile3 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 215%;
+    color: #181818;
+}
+
+.main__profile3_say {
+    padding: 15px;
+}
+
+.main__profile3_say p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #181818;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.main__btn3 {
+    background-color: #fff;
+    border-top: 1px solid #F4F4F4;
+    display: flex;
+    align-items: center;
+}
+
+.main__btn3 a {
+    display: flex;
+    margin-left: auto;
+    padding: 10px;
+    gap: 5px;
+    border-left: 1px solid #F4F4F4;
+    text-decoration: none;
+    color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bold;
+}

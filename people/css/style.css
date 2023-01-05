@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.people1 {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 40px;
+}
+
+.people1 .chel1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.people1 .glaz1 {
+    position: absolute;
+    left: 128px;
+    top: 90px;
+}
+
+.people1 .kepka1 {
+    position: absolute;
+    top: 0;
+    left: 93px;
+}
+
+.people1 .nos1 {
+    position: absolute;
+    top: 95px;
+    left: 170px;
+}
+
+.people1 .rot1 {
+    position: absolute;
+    top: 145px;
+    left: 165px;
+}
+
+.people1 .kofta1 {
+    position: absolute;
+    top: 190px;
+    left: 10px;
+}
+
+.people1 .ysi1 {
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
+
+.people2 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: blueviolet;
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.people2 .chel2 {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+
+.people2 .glaz2 {
+    position: absolute;
+    top: 85px;
+    left: 115px;
+}
+
+.people2 .kepka2 {
+    position: absolute;
+    top: -10px;
+    left: 13px;
+}
+
+.people2 .nos2 {
+    position: absolute;
+    top: 100px;
+    left: 168px;
+}
+
+.people2 .rot2 {
+    position: absolute;
+    top: 150px;
+    left: 160px;
+}
+
+.people2 .kofta2 {
+    position: absolute;
+    top: 215px;
+    left: 14px;
+}
+
+.people2 .ysi2 {
+    position: absolute;
+    top: 123px;
+    left: 96px;
+}
+
+.people3 {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.people3 .chel3 {
+    position: absolute;
+    top: 45px;
+    left: 13px;
+}
+
+.people3 .glaz3 {
+    position: absolute;
+    top: 128px;
+    left: 133px;
+}
+
+.people3 .kepka3 {
+    position: absolute;
+    left: 88px;
+    top: 1px;
+}
+
+.people3 .nos3 {
+    position: absolute;
+    top: 140px;
+    left: 170px;
+}
+
+.people3 .rot3 {
+    position: absolute;
+    top: 190px;
+    left: 166px;
+}
+
+.people3 .kofta3 {
+    position: absolute;
+    top: 226px;
+    left: 13px;
+}
